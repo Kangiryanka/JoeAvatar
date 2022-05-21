@@ -1,0 +1,175 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+}
+
+hr {
+  border: 0;
+  margin: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0));
+}
+
+a {
+  color: black;
+  font-size: 2em;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0px 10px 0 10px;
+  font-size: 4rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h5{
+  margin:0 0 10px 0;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+/*Custom Classes*/
+.content {
+  flex: 1 0 auto;
+
+}
+
+.main-block {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-color: #caddd4;
+}
+
+.middle-block {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  text-align: center;
+  background-color: #fcfefd;
+}
+
+.low-block {
+  position: relative;
+  height: 33%;
+  width: 100%;
+  margin: 0;
+  padding-top: 20px;
+  background-color: #fcfefd;
+}
+
+
+.leaf-block {
+  position: relative;
+  display: flex;
+  height: 100px;
+
+  justify-content: space-around;
+}
+
+
+.skill-row {
+  position: relative;
+  height: 100px;
+  width: 50%;
+  margin: 100px auto 200px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.footer {
+  flex-shrink: 0;
+  width: 100%;
+  background-color: #caddd4;
+
+}
+
+/* Image classes*/
+
+img {
+  max-width: 200px;
+
+}
+.leaf {
+max-width: 100%;
+max-height: 100%;
+}
+
+
+.leaf-special {
+  max-width: 100%;
+  max-height: 100%;
+  position: center;
+}
+
+.leaf-middle{
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  top: 30px;
+
+}
+
+
+
+
+.joseph {
+  position: relative;
+  height: 300px;
+  width: 250px;
+  margin: -50px;
+  padding-bottom: 30px;
+}
+
+.earth {
+  float: left;
+
+  margin-right: 10px;
+}
+
+.balls {
+  float: right;
+  position: fixed;
+  left: 30px;
+
+  position: relative;
+  transform: scale(1.5);
+
+
+}
+
+.bboy {
+  float: left;
+  margin-right: 20px;
+}
+
+.instalogo {
+  width: 30px;
+  padding-top: 10px;
+}
+.tiktoklogo{
+  width: 30px;
+  padding-top: 10px;
+}
+.twitterlogo {
+  width: 30px;
+  padding-top: 10px;
+}
